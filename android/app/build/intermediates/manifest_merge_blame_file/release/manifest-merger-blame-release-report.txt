@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eleyaa"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:4:4-66
+11-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:4:21-63
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:5:3-76
+12-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:5:20-73
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:6:3-78
+13-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:6:20-75
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:7:3-79
+14-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:7:20-76
+15
+16    <!-- Required to access Google Play Licensing -->
+17    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+17-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
+17-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
+18    <!--
+19         Required to keep CPU alive while downloading files
+20        (NOT to keep screen awake)
+21    -->
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:5-68
+22-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:22-65
+23    <!--
+24         Required to poll the state of the network connection
+25        and respond to changes
+26    -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+27-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-79
+27-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:22-76
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
+28-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
+29
+30    <application
+30-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:10:5-30:19
+31        android:name="com.eleyaa.MainApplication"
+31-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:11:7-38
+32        android:allowBackup="false"
+32-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:14:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/elyaa"
+34-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:13:8-36
+35        android:label="@string/app_name"
+35-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:12:7-39
+36        android:theme="@style/AppTheme"
+36-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:16:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:15:7-42
+38        <activity
+38-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:17:7-28:18
+39            android:name="com.eleyaa.MainActivity"
+39-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:18:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+40-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:20:9-86
+41            android:label="@string/app_name"
+41-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:19:9-41
+42            android:launchMode="singleTask"
+42-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:21:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:22:9-51
+44            <intent-filter>
+44-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:23:9-27:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:24:13-65
+45-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:24:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:25:13-73
+47-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:25:23-70
+48
+49                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+49-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:26:13-77
+49-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:26:21-75
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:29:7-84
+52-->/Users/macbook/React_Native /Eliyaa/android/app/src/main/AndroidManifest.xml:29:17-81
+53
+54        <provider
+54-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
+55            android:name="com.RNFetchBlob.Utils.FileProvider"
+55-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
+56            android:authorities="com.eleyaa.provider"
+56-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
+57            android:exported="false"
+57-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
+58            android:grantUriPermissions="true" >
+58-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
+59            <meta-data
+59-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:58
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-67
+61                android:resource="@xml/provider_paths" />
+61-->[:rn-fetch-blob] /Users/macbook/React_Native /Eliyaa/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-55
+62        </provider>
+63    </application>
+64
+65</manifest>

@@ -1,0 +1,4 @@
+#Sat Oct 24 11:00:54 EET 2020
+base.0=/Users/macbook/React_Native /Eliyaa/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

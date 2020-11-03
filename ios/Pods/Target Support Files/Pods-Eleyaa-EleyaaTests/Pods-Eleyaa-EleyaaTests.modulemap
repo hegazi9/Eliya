@@ -1,0 +1,6 @@
+module Pods_Eleyaa_EleyaaTests {
+  umbrella header "Pods-Eleyaa-EleyaaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

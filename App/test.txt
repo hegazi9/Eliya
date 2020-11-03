@@ -1,0 +1,32 @@
+/** role_name : ''
+ * 
+ *    if( this.state.role_name == 'Admin')
+                   {
+                 
+ * componentDidMount()
+  {
+    AsyncStorage.getItem('ROLE').then(( res ) => {
+      this.setState({
+        role_name : res
+      })
+    })
+  
+  }
+ * 
+ * else 
+  {
+    ToastAndroid.showWithGravityAndOffset(
+      ' لا يسمح بهذه العملية', 
+      ToastAndroid.SHORT,
+      ToastAndroid.BOTTOM,
+      25,
+      50,
+    );
+  }
+ */
+
+
+
+
+  
+  
